@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Whisper&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mina&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+.top{
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    background-color: rgb(153, 152, 152);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1vh;
+}
+.sname{
+    font-size: min(40px,4vw);
+    font-family: 'Whisper';
+    font-weight: bold;
+}
+.sub{
+    font-size: min(16px,2.5vw);
+    font-family: 'Courier New', Courier, monospace;
+    color: beige;
+    font-style: italic;
+}
+.btns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: min(30px,3vw);
+}
+.btn{
+    background-color: rgb(153, 152, 152);
+    border: none;
+    font-size: max(1.5vw,35px);
+    font-family: 'Bebas Neue';
+}
+.right{
+    display: flex;
+    align-items:flex-end;
+}
+.img1{
+    height: min(100px,10vw);
+    width: auto;
+}
+.actv{
+    transition-duration: .6s;
+    font-size: calc(0.7*max(1.5vw,35px));
+    color: white;
+    text-shadow: 0 0px 10px rgba(161, 48, 48, 0.911);
+}
+.cont{
+    margin-top: 102px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.img2{
+    width: auto;
+    height: min(300px,40vw);
+}
+.img3{
+    width: min(500px,40vw);
+    height: auto;
+}
+/* .home1{
+    border: 1px solid black;
+    border-left: none;
+} */
+.homecont{
+    width: min(300px,150vw);
+    font-size: min(30px,4vw);
+    font-family: 'Mina', sans-serif;
+    padding: 10px;
+}
+.menuecont{
+    width: max(40vw,100px);
+    height: 950px;
+    display: grid;
+    justify-content: space-evenly;
+    gap: 20px;
+    grid-template-columns: 300px 300px;
+    grid-template-rows: 300px 300px 300px;
+}
+.item{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 20px;
+}
+.img4{
+    height: 300px;
+    width: auto;
+}
+.item1{
+    height: 200px;
+    width: 200px;
+    background-image: url('./images/ma7shi.avif');
+    background-size: cover;
+    border-radius: 10px;
+}
+.item2{
+    height: 200px;
+    width: 200px;
+    background-image: url('./images/pizza.jpg');
+    background-size: cover;
+    border-radius: 10px;
+}
+.item3{
+    height: 180px;
+    width: 180px;
+    background-image: url('./images/shawarma-e.avif');
+    background-size: cover;
+    border-radius: 50%;
+}
+.item4{
+    height: 200px;
+    width: 200px;
+    background-image: url('./images/koshari.avif');
+    background-size: cover;
+    border-radius: 10px;
+}
+.item5{
+    height: 200px;
+    width: 200px;
+    background-image: url('./images/falafel-white.avif');
+    background-size: cover;
+    border-radius: 10px;
+}
+.item6{
+    height: 200px;
+    width: 200px;
+    background-image: url('./images//hawawshi.webp');
+    background-size: cover;
+    border-radius: 10px;
+}
+.txt , .subtxt{
+    font-family: 'Bebas Neue';
+    font-size: 30px;
+}
+.subtxt{
+    color: red;
+}
+.conta{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+.co1{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.img4{
+    height: 70px;
+    width: auto;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Bebas Neue';
+    font-size: 40px;
+}
